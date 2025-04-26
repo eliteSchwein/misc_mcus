@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "LCSC")(type "KiCad")(uri "${KIPRJMOD}/../../library/easyeda2kicad/.pretty")(options "")(descr ""))
+  (lib (name "SelfMadeStuff")(type "KiCad")(uri "${KIPRJMOD}/../library/selfmadestuff/Library.pretty")(options "")(descr ""))
+)

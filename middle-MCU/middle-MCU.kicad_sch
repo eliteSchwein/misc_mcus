@@ -1,0 +1,460 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "eb63e6f7-b30a-467a-918b-f1809b9fdccd")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 128.27 52.07)
+		(size 36.195 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8938fe3a-75bc-4b8d-a4d4-2327e1a9b6ba")
+		(property "Sheetname" "CAN"
+			(at 128.27 51.3584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "can.kicad_sch"
+			(at 128.27 69.1646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "middle-MCU"
+				(path "/eb63e6f7-b30a-467a-918b-f1809b9fdccd"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 68.58 103.505)
+		(size 22.86 9.525)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9c0743c2-d24f-48ec-9201-c73203c1d04b")
+		(property "Sheetname" "MCU"
+			(at 68.58 102.7934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 68.58 113.6146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "middle-MCU"
+				(path "/eb63e6f7-b30a-467a-918b-f1809b9fdccd"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 170.18)
+		(size 19.05 24.765)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b9f58405-18f4-4aa6-927a-4da319139bb5")
+		(property "Sheetname" "FANS"
+			(at 25.4 169.4684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fans.kicad_sch"
+			(at 25.4 195.5296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "FAN1_MCU_FET" input
+			(at 44.45 172.72 0)
+			(uuid "b5e0d86b-41f8-4396-aaae-0c4f2db46dc6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FAN1_MCU_PWM" input
+			(at 44.45 175.26 0)
+			(uuid "8b1ed767-d2ab-4e7c-95e9-42d58ddfa97b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FAN1_TAC_MCU" output
+			(at 44.45 177.8 0)
+			(uuid "57d96c3f-8c8f-49a6-98e1-efa7c4f23562")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FAN2_MCU_FET" input
+			(at 44.45 180.34 0)
+			(uuid "394406b5-852c-4447-bdb8-933a4f3269f4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FAN2_MCU_PWM" input
+			(at 44.45 182.88 0)
+			(uuid "c9c513cf-4539-46d0-af9f-2c512ba0a8e9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FAN2_TAC_MCU" output
+			(at 44.45 185.42 0)
+			(uuid "28667784-193d-4d38-8765-b0034c46dee8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FAN3_MCU_FET" input
+			(at 44.45 187.96 0)
+			(uuid "78ebbf38-cb17-472f-bbb9-bd8963ccc757")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FAN3_MCU_PWM" input
+			(at 44.45 190.5 0)
+			(uuid "8fbc55e2-24ca-4da0-837c-ca1e12e31960")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FAN3_TAC_MCU" output
+			(at 44.45 193.04 0)
+			(uuid "156eb514-ee9b-4612-ae0d-05d5fed2677f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "middle-MCU"
+				(path "/eb63e6f7-b30a-467a-918b-f1809b9fdccd"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 109.855 170.815)
+		(size 12.7 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bffedc33-3dd4-40c4-8613-05dc41d58cd2")
+		(property "Sheetname" "LED"
+			(at 109.855 170.1034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 109.855 186.6396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "middle-MCU"
+				(path "/eb63e6f7-b30a-467a-918b-f1809b9fdccd"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 15.24 19.685)
+		(size 15.24 6.35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cf462873-bc3f-48e9-80b8-4f3008e5f191")
+		(property "Sheetname" "POWER"
+			(at 15.24 18.9734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 15.24 26.6196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "middle-MCU"
+				(path "/eb63e6f7-b30a-467a-918b-f1809b9fdccd"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 106.045 146.05)
+		(size 17.145 14.605)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d2a3caa7-7ef3-4eb4-807c-19e4da434cbc")
+		(property "Sheetname" "SENSOR"
+			(at 106.045 145.3384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 106.045 161.2396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "middle-MCU"
+				(path "/eb63e6f7-b30a-467a-918b-f1809b9fdccd"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 175.26 93.98)
+		(size 20.955 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d33daaf8-ae15-4750-b628-7821b29a89e2")
+		(property "Sheetname" "HEATER"
+			(at 175.26 93.2684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "heater.kicad_sch"
+			(at 175.26 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "middle-MCU"
+				(path "/eb63e6f7-b30a-467a-918b-f1809b9fdccd"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 26.035 145.415)
+		(size 17.145 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dda2f689-9806-4cbd-a1c9-9daf02cdc379")
+		(property "Sheetname" "USB"
+			(at 26.035 144.7034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb.kicad_sch"
+			(at 26.035 161.2396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB_DN" bidirectional
+			(at 43.18 153.67 0)
+			(uuid "c04d9e22-7704-4b56-881d-ac1379264377")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DP" bidirectional
+			(at 43.18 151.13 0)
+			(uuid "96774b1e-8021-4d2c-8f19-24629f0988ce")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "middle-MCU"
+				(path "/eb63e6f7-b30a-467a-918b-f1809b9fdccd"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

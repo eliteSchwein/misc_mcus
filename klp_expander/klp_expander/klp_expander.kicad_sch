@@ -1,5 +1,182 @@
-(kicad_sch (version 20250114) (generator "eeschema") (generator_version "9.0")
-  (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "e69b44bb-f963-456e-a46f-d1d9383449a4")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 35.56 97.79)
+		(size 73.66 39.37)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4f8875f1-a633-4058-a351-0caab4411522")
+		(property "Sheetname" "HUB"
+			(at 35.56 97.0784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "hub.kicad_sch"
+			(at 35.56 137.7446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "klp_expander"
+				(path "/e69b44bb-f963-456e-a46f-d1d9383449a4"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 27.94 167.64)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5257c698-ab0f-48bd-b36d-845ca93d7882")
+		(property "Sheetname" "POWER"
+			(at 27.94 166.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 27.94 173.3046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "klp_expander"
+				(path "/e69b44bb-f963-456e-a46f-d1d9383449a4"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 91.44 162.56)
+		(size 17.78 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "81f1b60b-4d4b-4670-9cba-a97fe260a734")
+		(property "Sheetname" "IO"
+			(at 91.44 161.8484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "io.kicad_sch"
+			(at 91.44 172.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "klp_expander"
+				(path "/e69b44bb-f963-456e-a46f-d1d9383449a4"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 43.18 34.29)
+		(size 49.53 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8295dd31-dbce-46a4-9c06-d9966032d812")
+		(property "Sheetname" "MCU"
+			(at 43.18 33.5784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 43.18 61.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "klp_expander"
+				(path "/e69b44bb-f963-456e-a46f-d1d9383449a4"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )

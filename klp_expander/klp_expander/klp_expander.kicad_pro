@@ -427,6 +427,18 @@
     [
       "81f1b60b-4d4b-4670-9cba-a97fe260a734",
       "IO"
+    ],
+    [
+      "ccd867d3-0666-4191-9b88-7812d921ee30",
+      "SENSORS"
+    ],
+    [
+      "4dc8a5eb-bc0f-4a90-b78e-b9b35ac79fb0",
+      "CAN"
+    ],
+    [
+      "5075dcff-8a1e-44d4-bff9-5a0dd403c7f6",
+      "LED"
     ]
   ],
   "text_variables": {}

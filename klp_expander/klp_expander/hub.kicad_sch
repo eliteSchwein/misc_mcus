@@ -1735,6 +1735,10 @@
 		(uuid "69da4a6a-8b43-4f0b-93c8-ae95029e76a1")
 	)
 	(no_connect
+		(at 142.24 97.79)
+		(uuid "77cdd902-541b-49ef-b603-8db0aad11009")
+	)
+	(no_connect
 		(at 142.24 85.09)
 		(uuid "81c673da-0136-41c1-88ca-acc9192cf877")
 	)
@@ -1745,6 +1749,10 @@
 	(no_connect
 		(at 142.24 87.63)
 		(uuid "8f7508b9-3d00-423c-a9ff-281a55055d06")
+	)
+	(no_connect
+		(at 142.24 110.49)
+		(uuid "9610f0de-d0b7-48f4-9534-e933341b0d21")
 	)
 	(no_connect
 		(at 142.24 72.39)
@@ -2246,16 +2254,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 97.79) (xy 147.32 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0b4af5c-580d-4f41-9003-fcd97944c087")
-	)
-	(wire
-		(pts
 			(xy 116.84 48.26) (xy 127 48.26)
 		)
 		(stroke
@@ -2373,16 +2371,6 @@
 			(type default)
 		)
 		(uuid "e552284f-7325-44be-8eed-29e74d7e48d3")
-	)
-	(wire
-		(pts
-			(xy 142.24 110.49) (xy 147.32 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed9e11b1-3968-47c4-af90-bbf5e24df853")
 	)
 	(wire
 		(pts
@@ -2526,17 +2514,6 @@
 		)
 		(uuid "5d00c64a-7e0d-4dde-9f74-b6d7e00e7bb7")
 	)
-	(hierarchical_label "USB_P3_PWR"
-		(shape output)
-		(at 147.32 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "68abc45d-b397-4292-8bf0-7a1ef33fa0e4")
-	)
 	(hierarchical_label "IN_DP"
 		(shape bidirectional)
 		(at 72.39 74.93 180)
@@ -2613,17 +2590,6 @@
 			(justify left)
 		)
 		(uuid "e1f30d82-79a9-4f13-9a30-d093f0d3e815")
-	)
-	(hierarchical_label "USB_P4_PWR"
-		(shape output)
-		(at 147.32 110.49 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e3ad86cb-f2b1-45ae-81e9-a251cc098b3a")
 	)
 	(hierarchical_label "USB_P1_DN"
 		(shape bidirectional)
